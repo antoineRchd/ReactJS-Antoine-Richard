@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+h3 {
+  color: #3c40ff;
+  margin-top: 20px;
+  font-size: 22px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+p {
+  color: #777;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: disc;
+  margin-bottom: 10px;
+  color: #535cff;
+  list-style: none;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.skill-level {
+  margin-left: 10px;
+  color: #888;
+}
+
+.heading {
+  text-align: center;
+  color: rgb(35, 35, 255);
+}
+
+.profil-image{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.project-image{
+  width: 330px;
+  height: 200px;
+  border-radius: 5%;
+}
+/* MENU */
+
+.menu {
+  display: flex;
+  justify-content: flex-start;
+  list-style-type: none;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.menu li a:hover {
+  color: blue;
+}
